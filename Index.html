@@ -1,0 +1,334 @@
+<html>
+<head>
+<title> Movie booking </title>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<style>
+body{
+position:relative;
+}
+*{
+margin:0;
+padding:0;
+font-family:'lato',san-serif;
+}
+nav{
+width:100%;
+background-color:#000;
+overflow: hidden;
+hieght: 50px;
+}
+nav ul{
+list-style: none;
+float: right;
+margin-top:102px;
+}
+nav ul li{
+display:inline-block;
+}
+nav ul li a{
+text-decoration: none;
+padding:20px 35px;
+text-align: center;
+color: #fff;
+font-weight:700;
+}
+.logo img{
+float: left;
+padding: 10px;
+height:105px;
+width: 120px;
+
+}
+.container{
+max-width: 12000px;
+margin:auto;
+background:#f2f2f2;
+overflow:auto;
+}
+.gallery{
+margin:20px;
+text-align:center;
+border:1px solid #ccc;
+float:left;
+width:20%;
+padding: 10px;
+}
+.gallery img{
+width:100%;
+height:105px;
+width: 120px;
+}
+.desc{
+text-align:center;
+}
+.search-form{
+margin-top:34px;
+float:right;
+margin-right:-670px;
+}
+input[type=text]{
+padding:7px;
+border:none;
+font-size:16px;
+font-family:sans-serif;
+}
+button{
+float:right;
+background:orange;
+color:white;
+border-radius:0 5px 5px 0;
+cursor:pointer;
+position:relative;
+padding:7px;
+font-family:san-serif;
+border:none;
+font-size:16px;
+}
+footer{
+bottom:0px;
+width:100%;
+background:#111;
+color:white;
+}
+.main-content{
+display:flex;
+}
+.main-content .box{
+flex-basis:50%;
+padding:10px 20px;
+}
+.box h2{
+font-size:1.125rem;
+font-weight:600;
+text-transform:uppercase;
+}
+.box .content{
+margin:20px 0 0 0;
+}
+.left .content p{
+text-align:justify;
+}
+.left .content .social{
+margin:20px 0 0 0;
+}
+.left .content .social a{
+padding:0 2px;
+}
+.left .content .social a span{
+height:40px;
+width:35px;
+background:#1a1a1a;
+color:white;
+line-height:40px;
+text-align:center;
+font-size:18px;
+border-radius:5px;
+transition:0.3s;
+}
+.left .content .social a span:hover{
+background:#f12020;
+
+}
+.btn{
+float:left;
+margin-right:100px;
+margin-top:5px;
+}
+</style>
+</head>
+<body>
+<nav>
+<div class="header">
+<div class="logo">
+<a href="#">
+<img src="Logo_Booking.jpg" alt="movie logo" height="95px" width="95px">
+</a>
+</div>
+</div>
+<ul>
+<li><a href ="#">Movies</a></li>
+<li><a href ="#">Events</a></li>
+<li><a href ="#">play</a></li>
+<li><a href ="#">Sports</a></li>
+<li><a href ="#">Login</a></li>
+<li><a href ="#">Register</a></li>
+</ul>
+<form class="search-form">
+<input type="text" placeholder="search">
+<button>search</button>
+</form>
+</nav>
+<div class="container">
+<form>
+<table>
+<tr>
+<td>
+Location
+</td>
+<td>
+<select>
+<option>Kolkata</option>
+<option>Bangalore</option>
+<option>Chennai</option>
+<option>Mumbai</option>
+<option>Hyderabad</option>
+<option>Delhi</option>
+<option>Rajasthan</option>
+<option>Goa</option>
+<option>Pune</option>
+<option>Punjab</option>
+<option>Gujarat</option>
+<option>Kerala</option>
+<option>Ahmedabad</option>
+<option>Assam</option>
+<option>Gangtok</option>
+</select>
+</td>
+</tr>
+</table>
+</form>
+<div class="gallery">
+<img src="pic_1.jpg" alt="movie pic" >
+<div class="desc">Bareilly Ki Barfi
+<br>imdb:7.5/10</div>
+
+</div>
+
+<div class="gallery">
+<img src="pic_2.jpg" alt=" movie pic" >
+<div class="desc">3 idiods<br>imdb:8.4/10</div>
+</div>
+
+<div class="gallery">
+<img src="pic_3.jpg" alt=" movie pic">
+<div class="desc">2 States<br>imdb:6.9/10</div>
+</div>
+
+<div class="gallery">
+<img src="pic_4.jpg" alt=" movie pic">
+<div class="desc">A Wednesday<br>imdb:8.1/10</div>
+</div>
+
+<div class="gallery">
+<img src="pic_5.jpg" alt="movie pic">
+<div class="desc">Shubh Mangal Saavdhan<br>imdb:6.9/10</div>
+</div>
+
+<div class="gallery">
+<img src="pic_6.jpg" alt="movie pic">
+<div class="desc">Dream Girl<br>imdb:7.1/10</div>
+</div>
+
+<div class="gallery">
+<img src="pic_7.jpg" alt="movie pic">
+<div class="desc">Badhaai Ho<br>imdb:8/10</div>
+</div>
+
+<div class="gallery">
+<img src="pic_8.jpg" alt="movie pic">
+<div class="desc">Vicky Donor<br>imdb:7.8/10</div>
+</div>
+
+<div class="gallery">
+<img src="pic_9.jpg" alt="movie pic">
+<div class="desc">Dum Laga Ka Haisha<br>imdb:7.5/10</div>
+</div>
+
+<div class="gallery">
+<img src="pic_10.jpg" alt="movie pic">
+<div class="desc">Bewakoofiyaan<br>imdb:5.5/10</div>
+</div>
+
+<div class="gallery">
+<img src="pic_11.jpg" alt="movie pic">
+<div class="desc">Special 26<br>imdb:8/10</div>
+</div>
+
+<div class="gallery">
+<img src="pic_12.jpg" alt="movie pic">
+<div class="desc">Shaadi Mai Zaroor Aana<br>imdb:7.6/10</div>
+</div>
+
+<div class="gallery">
+<img src="pic_13.jpg" alt="movie pic">
+<div class="desc">ki And Ka<br>imdb:5.8/10</div>
+</div>
+
+<div class="gallery">
+<img src="pic_14.jpg" alt="movie pic">
+<div class="desc">Munna Bhai M.B.B.S<br>imdb:8.1/10</div>
+</div>
+
+<div class="gallery">
+<img src="pic_15.jpg" alt="movie pic">
+<div class="desc">Padman<br>imdb:7.9/10</div>
+</div>
+
+<div class="gallery">
+<img src="pic_16.jpg" alt="movie pic">
+<div class="desc">Yeh Jawani Hai Diwani<br>imdb:7.1/10</div>
+</div>
+
+<div class="gallery">
+<img src="pic_17.jpg" alt="movie pic">
+<div class="desc">Raid<br>imdb:7.4/10</div>
+</div>
+
+<div class="gallery">
+<img src="pic_18.jpg" alt="movie pic">
+<div class="desc">Toilet:Ek Prem katha<br>imdb7.2/10</div>
+</div>
+</div>
+<Footer>
+<div class= "main-content">
+<div class="left box">
+<h2>About us</h2>
+<div class="content">
+<p>This is a movie booking site. This is very convenient.And easy to access by any user.<br>This is a product by ABHIRUP DUTTA.</P>
+<div class="Social">
+<a href="#"><span class="fab fa-facebook"></span></a>
+<a href="#"><span class="fab fa-Twitter"></span></a>
+<a href="#"><span class="fab fa-Instagram"></span></a>
+<a href="#"><span class="fab fa-Youtube"></span></a>
+</div>
+</div>
+</div>
+<div class="center box">
+<h2>Address</h2>
+<div class="content">
+<div class="place">
+<span class="fa fa-map-marker"></span>
+<span class="text">New Town,Kolkata</span>
+</div>
+<div class="Phone">
+<span class="fa fa-phone"></span>
+<span class="text">8637880793</span>
+</div>
+<div class="email">
+<span class="fa fa-envelope"></span>
+<span class="text">duttaabhirup1112@gmail.com</span>
+</div>
+</div>
+</div>
+<div class="right box">
+<h2>Contact us</h2>
+<div class="content">
+<form action="#">
+<div class="email">
+<div class="text">Email *</div>'
+<input type="email" required>
+</div>
+<div class="msg">
+<div class="text">Message *</div>
+<textarea rows="2" cols="25" required></textarea>
+</div>
+<div class="btn">
+<button type="submit">send</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</footer>
+</body>
+</html>
